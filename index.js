@@ -1,141 +1,76 @@
- 
- //q1
- pi =3.14;
- radius = 7;
-let area = 3.14 *radius**2;
-console.log("the area of circle is :" + area);
+//q1
+
+array = [1, 2, 3, 4, 5];
+for(let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
 
 
 //q2
+array = [10, 20, 30, 40, 50];
+for(let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
 
-let a = 10;
-let b = 20;
-let c = 5;
-
-console.log  ((a * b) / c + (b - a));
- 
 //q3
 
-let x = 5;
-let y = 10;
-
- x += 2;
- y *= x;
- console.log(" letest value of x ",x);
- console.log(" letest value of y ",y);
-
+let count = 0;
+let str = "Hello, World!";
+for (let i = 0; i < str.length; i++) {
+    count++;
+}
+console.log(count);
 
 //q4
-
-let num = 2;
-
-num += 15;
-num -= 5;
-num *= 3;
-num /= 2;
-console.log("answer",num);
+let str2 = "JavaScript";
+for(let i =0; i <str2.length; i++){
+    console.log(str2[i]);
+}
 
 //q5
+ let h = 0;
+ for(let s = 0; s <=5; s++){
+        h += s;
+ }
+console.log(h);
 
-let score1 = 85;
-let score2 = 90;
-let result1 = score1 > 80 && score2 > 80;
-console.log("score1 and score2 are greater than 80 :",result1);
 
 //q6
-
-let fruit1 = "apple";
-let fruit2 = "banana";
-
-let fruit = fruit1 < fruit2;
-console.log(" apple less than banana : ",fruit);
-
+const arr = [3, 1, 4, 1, 5, 9];
+let max = arr[0];
+for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > max) {
+        max = arr[i];
+    }
+}
+console.log(max);
 
 //q7
-
-let age = 25;
-let hasDrivingLicense = true;
-if(age >= 18 && hasDrivingLicense){
-    console.log("eligible for drive");
-}else{
-    console.log("not eligible for drive");
+let array2 = [1, 2, 3, 4, 5];
+for (let i = 0; i < array2.length; i++) {
+    if (i % 2 === 0) {
+        console.log(array[i]);
+    }
 }
 
 //q8
-//query
+let greeting = "hello";
 
+for(let i =0; i < greeting.length; i++) {
 
-//q9
-let string = 123.45;
-let result2 = Number(string) + 10;
-console.log(result2);
+        console.log(greeting[i].toUpperCase());
+    }
 
+    //q9
+let count1 = 0;
+let i = 0;
+let array3 =[2, 4, 6, 8, 10];
+
+while (i < array3.length) {
+   count1++; 
+    i++;
+}
+console.log(count1);
 
 //q10
 
-let booleanValue = true ;
-let result3 = booleanValue + " is this value";
-console.log(result3);
-
-//q11
-
-
-//q13
-
-let number = 9;
-if(number > 10){
-    console.log("this is postive number");
-}
-else if(number >8){
-    console.log("this is nagative number");
-}
-
-//q14
-
-let temperature = 30;
-if (temperature > 25){
-    console.log("it's the hot day");
-}
-else if(temperature > 30){
-    console.log("it's the cool day")
-}
-
-//q15
-let num1 = 8 ;
-
-if(num1 > 0){
-    console.log("positive");
-}
-else if(num1 < 8){
-    console.log("negative");
-}
-
-//q16
-let marks = 75;
-if(marks >= 90){
-    console.log("A grade");
-}
-else if(marks >= 80 && marks < 89){
-    console.log("B grade");
-}
-else if(marks >= 70 && marks < 79){
-    console.log("C grade");
-}
-else if(marks >= 60 && marks < 69){
-    console.log("D grade");
-}
-
-
-//q17
-let number1 = 15;
-let number2 = 20;
-if(number1 > number2){
-    console.log("number1 is greater than number2");
-}
-else if(number1 < number2){
-    console.log("number1 is less than number2");
-}
-else{
-    console.log("number1 is equal to number2");
-}
-//q18
